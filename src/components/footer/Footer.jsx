@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 const Footer = () => {
 
     return (
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="dark" style={{ padding: "0px" }} >
         <Container>
           <Nav className="me-auto">
             <Nav.Link>Contacto</Nav.Link>

@@ -5,15 +5,23 @@ import { Link } from "react-router-dom";
 const NavigationBar = () => {
 
     return (
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar bg="primary" style={{ padding: "0px" }} >
         <Container>
-          <Navbar.Brand><Link to="/">Logo</Link></Navbar.Brand>
+          <Navbar.Brand>
+          <Link to="/">
+              <img src="logo.png"
+              alt=""
+              width="40"
+              height="40"
+              className="d-inline-block align-top"/>
+            </Link>
+          </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link><Link to="/perdidos">Perdidos</Link></Nav.Link>
-            <Nav.Link><Link to="/encontrados">Encontrados</Link></Nav.Link>
-            <Nav.Link><Link to="/publicar">Publicá</Link></Nav.Link>
+            <Nav.Link as={Link} to="/perdidos">Perdidos</Nav.Link>
+            <Nav.Link as={Link} to="/encontrados">Encontrados</Nav.Link>
+            <Nav.Link as={Link} to="/publicar">Publicá</Nav.Link>
           </Nav>
-          <Button variant="info"><Link to="/ingresar">Iniciar sesión</Link></Button>
+          <Link to="/ingresar"><Button variant="light">Iniciar sesión</Button></Link>
         </Container>
       </Navbar>
     );

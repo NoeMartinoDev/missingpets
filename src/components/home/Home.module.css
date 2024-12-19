@@ -1,0 +1,39 @@
+.body {
+    background-image: url('https://www.qatarairways.com/content/dam/images/renditions/horizontal-1/miscellaneous/animal/h1-cat-pet-container-hn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bodybg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.bodybg h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.bodybg p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    width: 45%;
+    margin: 10px 0 0;
+    text-align: center;
+    align-self: flex-start;
+    padding-left: 20px;
+}

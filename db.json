@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "juan@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "email": "marta@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b17c",
+      "email": "matias@mail.com",
+      "password": "123456"
+    }
+  ],
+  "pets": [
+    {
+      "id": "4e97",
+      "estado": "Perdido",
+      "especie": "Canino",
+      "sexo": "Hembra",
+      "lugar": "Tigre",
+      "fecha": "2024-12-11",
+      "descripcion": "Cachorrita perdida por zona de Don Torcuato",
+      "telefono": "1145616568",
+      "imagen": "https://pet-uploads.adoptapet.com/6/4/2/647250031.jpg"
+    },
+    {
+      "id": "d5e8",
+      "estado": "Encontrado",
+      "especie": "Felino",
+      "sexo": "No identificado",
+      "lugar": "Olivos",
+      "fecha": "2024-12-18",
+      "descripcion": "Encontré un gato negro, está asustado",
+      "telefono": "1145657778",
+      "imagen": "https://catprotection.org.au/wp-content/uploads/2022/05/Licorice_forweb.jpg"
+    },
+    {
+      "id": "01ae",
+      "estado": "Perdido",
+      "especie": "Canino",
+      "sexo": "Macho",
+      "lugar": "Campana",
+      "fecha": "2024-12-12",
+      "descripcion": "Encontré este gatito sin collar, es muy cariñoso",
+      "telefono": "1145666778",
+      "imagen": "https://th.bing.com/th/id/OIP.XfrBk6cNAixqFW6vcjAhQgHaGg?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "e61a",
+      "estado": "Perdido",
+      "especie": "Canino",
+      "sexo": "Macho",
+      "lugar": "Don Torcuato",
+      "fecha": "2024-12-04",
+      "descripcion": "Se escapó mi perro la noche de la tormenta, tenía un collar azul",
+      "telefono": "1178456975",
+      "imagen": "https://images.unsplash.com/photo-1552995530-cf6043202fd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "4966",
+      "estado": "Perdido",
+      "especie": "Felino",
+      "sexo": "Macho",
+      "lugar": "Escobar",
+      "fecha": "2024-12-16",
+      "descripcion": "Desde hace 2 días mi gato no vuelve a mi casa, es dócil y está castrado",
+      "telefono": "1163256522",
+      "imagen": "https://th.bing.com/th/id/R.1fea139dd8445dbaa2ee0aab9a55198b?rik=HrQajIGTDUkF6g&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "ddce",
+      "estado": "Encontrado",
+      "especie": "Canino",
+      "sexo": "Macho",
+      "lugar": "Tigre",
+      "fecha": "2024-12-16",
+      "descripcion": "Encontré a este perrito, es muy amigable, no tenía collar",
+      "telefono": "1144725581",
+      "imagen": "https://i.pinimg.com/originals/13/af/9a/13af9a8fac18fe4ba9a4630808183ff1.jpg"
+    },
+    {
+      "id": "7255",
+      "estado": "Perdido",
+      "especie": "Felino",
+      "sexo": "Hembra",
+      "lugar": "Campana",
+      "fecha": "2024-12-13",
+      "descripcion": "Gatita blanca con collar bordó, es dócil, tamaño grande",
+      "telefono": "1136342694",
+      "imagen": "https://th.bing.com/th/id/OIP.SY7sbJyNbx0KjNvf3uayvwHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "5804",
+      "estado": "Encontrado",
+      "especie": "Felino",
+      "sexo": "No identificado",
+      "lugar": "Moreno",
+      "fecha": "2024-12-12",
+      "descripcion": "Este gato o gata entró a mi casa y no sé si tiene dueño pero está muy bien cuidado",
+      "telefono": "1142357412",
+      "imagen": "https://petpress.net/wp-content/uploads/2020/03/cat-5-20.jpg"
+    },
+    {
+      "id": "8030",
+      "estado": "Encontrado",
+      "especie": "Canino",
+      "sexo": "Macho",
+      "lugar": "Moreno",
+      "fecha": "2024-12-10",
+      "descripcion": "Encontré este perro desorientado en la estación de Moreno",
+      "telefono": "1120516615",
+      "imagen": "https://th.bing.com/th/id/R.9493dc25f204e6307b1ae6aef846633d?rik=sLE2YtfSjLOr7A&riu=http%3a%2f%2fwww.101dogbreeds.com%2fwp-content%2fuploads%2f2015%2f07%2fGoldador.jpg&ehk=QNZZIGU%2biMfNhbAC7Q0OKgnJ90aczoXNOwcTswCEDjk%3d&risl=&pid=ImgRaw&r=0"
+    }
+  ]
+}
