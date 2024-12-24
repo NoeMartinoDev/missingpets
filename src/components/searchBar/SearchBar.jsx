@@ -12,6 +12,7 @@ const SearchBar = ( { pets, setFilteredData }) => {
         event.preventDefault()
         const petsFiltered = pets.filter(pet => pet.lugar.toUpperCase() === place.toUpperCase())
         setFilteredData(petsFiltered)
+        setPlace("")
     }
 
     const handleClick = (event) => {

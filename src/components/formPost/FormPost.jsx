@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Form, Button, Row, Col } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const FormPost = () => {
+
+    const navigate = useNavigate()
 
     const [ form, setForm] = useState({
         estado: "Perdido",
@@ -12,7 +15,9 @@ const FormPost = () => {
         fecha: "",
         descripcion: "",
         telefono: "",
-        imagen: ""
+        imagen: "",
+        //Investigar de qué manera puedo obtener datos del user para que el posteo tenga un autor
+        user: null
     })
 
     const handleChange = (event) => {
@@ -28,6 +33,8 @@ const FormPost = () => {
         try {
             await axios.post("http://localhost:3001/pets", form)
             alert("Post creado")
+            navigate("/")
+
         } catch (error) {
             console.log(error)
         }

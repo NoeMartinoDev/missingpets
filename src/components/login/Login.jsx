@@ -1,14 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import axios from "axios";
 import { Form, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { UserContext } from "../../context/UserContext";
 
 const Login = () => {
+
+    const { setUser } = useContext(UserContext);
 
     const [ form, setForm ] = useState({
         email: "",
         password: ""
     })
+
+    const navigate = useNavigate()
 
     const handleChange = (event) => {
         if (event.target.name === "email") {
@@ -28,8 +33,9 @@ const Login = () => {
                 (user) => user.email === form.email && user.password === form.password
             )
             if (userFound) {
-                console.log(userFound)
-                alert("Login exitoso")
+                setUser(userFound)
+                localStorage.setItem("isLoged", JSON.stringify(userFound))
+                navigate("/")
             } else {
                 alert("Datos incorrectos")
             }
