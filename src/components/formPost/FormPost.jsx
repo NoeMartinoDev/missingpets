@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import axios from "axios";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { UserContext } from "../../context/UserContext";
 
 const FormPost = () => {
 
     const navigate = useNavigate()
+
+    const { user } = useContext(UserContext)
 
     const [ form, setForm] = useState({
         estado: "Perdido",
@@ -16,8 +19,7 @@ const FormPost = () => {
         descripcion: "",
         telefono: "",
         imagen: "",
-        //Investigar de qué manera puedo obtener datos del user para que el posteo tenga un autor
-        user: null
+        user: user ? user.email : null
     })
 
     const handleChange = (event) => {

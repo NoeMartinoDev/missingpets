@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const SearchBar = ( { pets, setFilteredData }) => {
 
     const [ place, setPlace ] = useState("")
